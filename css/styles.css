@@ -1,0 +1,14 @@
+.header {
+  background-image: url('../images/background.jpeg');
+  background-size: cover;
+  height: 900px;
+  width: auto;
+}
+.profile {
+  background-image: url('../images/alexprofile.jpg');
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
