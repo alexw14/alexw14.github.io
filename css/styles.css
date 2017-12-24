@@ -1,8 +1,8 @@
 .header {
   background-image: url('../images/background.jpeg');
   background-size: cover;
-  height: 900px;
-  width: auto;
+  height: 100vh;
+  width: 100vw;
 }
 .profile {
   background-image: url('../images/alexprofile.jpg');
