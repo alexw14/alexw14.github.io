@@ -1,10 +1,20 @@
+* {
+  font-family: "Alegreya Sans";
+}
+
 .header {
-  background-image: url('../images/background.jpeg');
+  background-color: #FDB927;
+  color: #552583;
   background-size: cover;
-  height: 100vh;
+  height: 75vh;
   width: 100vw;
   margin-bottom: 50px;
 }
+
+.navbar {
+  background-color: #552583;
+}
+
 .profile {
   background-image: url('../images/alexprofile.jpg');
   background-size: cover;
