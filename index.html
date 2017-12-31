@@ -15,91 +15,117 @@
 <body>
   <!-- Header Section -->
   <div id="header">
-    <div class="intro">
-      <div class="text-center">
-        <div id="type1" class="display-4"></div>
-        <div id="type2" class="display-4"></div>
-      </div>
+    <div class="intro text-center display-4 font-weight-bold">
+      <div id="type1"></div>
+      <div id="type2"></div>
     </div>
   </div>
   <!-- Nav -->
-  <nav class="navbar sticky-top h4">
-    <ul class="nav">
-      <li class="nav-item text-white">Alex Wong</li>
+  <nav class="navbar sticky-top">
+    <ul class="nav h4">
+      <li class="nav-item font-weight-bold">Alex Wong</li>
     </ul>
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end h5">
       <li class="nav-item px-3">
-        <a href="#projects" class="text-white">Projects</a>
+        <a href="#projects" class="text-dark">Projects</a>
       </li>
       <li class="nav-item px-3">
-        <a href="#contact" class="text-white">Contact</a>
+        <a href="#contact" class="text-dark">Contact</a>
       </li>
     </ul>
   </nav>
   <!-- Projects Section-->
-  <div class="container-fluid">
-    <h1 id="projects" class="text-center">Projects</h1>
-    <div>
-      <h3>Sneak Peeks</h3>
-      <p>Sneak Peeks is a crowdfunding platform for users to browse creative projects and contribute funding. Users can filter
-        and search for projects by category. Users can also post projects and get funding from others. Users are able to
-        see each project's current funding and number of backers.</p>
-      <img src="https://camo.githubusercontent.com/a98e069bc5a112f04103a6ed9a9864aedd2388e3/68747470733a2f2f692e696d6775722e636f6d2f7870735735334d2e706e67"
-        height="450px" width="800px">
-      <button class="btn btn-primary">
-        <a href="https://sneakpeeks.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-      </button>
-      <button class="btn btn-primary">
-        <a href="https://github.com/alexw14/sneakpeeks" target="_blank" class="text-white">GitHub Repo</a>
-      </button>
+  <div id="projects" class="container-fluid">
+
+    <h1 class="text-center mb-5">Projects</h1>
+
+    <div class="project-section">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-center font-weight-bold">Sneak Peeks</h3>
+          <p>Sneak Peeks is a crowdfunding platform for users to browse creative projects and contribute funding. Users can
+            filter and search for projects by category. Users can also post projects and get funding from others. Users are
+            able to see each project's current funding and number of backers.</p>
+          <button class="btn">
+            <a href="https://sneakpeeks.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
+          </button>
+          <button class="btn">
+            <a href="https://github.com/alexw14/sneakpeeks" target="_blank" class="text-white">GitHub Repo</a>
+          </button>
+        </div>
+        <div class="col-md-8">
+          <img src="https://i.imgur.com/UQnWaf0.png">
+        </div>
+      </div>
     </div>
-    <div>
-      <h3>Divide and Costco</h3>
-      <p>Divide and Costco is an app that allows Costco shoppers to connect for savings. It allows two customers to connect
-        shopping lists to split large quantity products. That way you reduce waste while also saving money on the items you
-        need.
-      </p>
-      <img src="https://github.com/alexw14/divideandcostco/raw/master/divideandcostcoscreens/map.png" height="450px" width="800px">
-      <button class="btn btn-primary">
-        <a href="https://divide-and-costco.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-      </button>
-      <button class="btn btn-primary">
-        <a href="https://github.com/alexw14/divideandcostco" target="_blank" class="text-white">GitHub Repo</a>
-      </button>
+
+    <div class="project-section">
+      <div class="row">
+        <div class="col-md-4 order-md-8">
+          <h3 class="text-center font-weight-bold">Divide and Costco</h3>
+          <p>Divide and Costco is an app that allows Costco shoppers to connect for savings. It allows two customers to connect
+            shopping lists to split large quantity products. That way you reduce waste while also saving money on the items
+            you need.</p>
+          <button class="btn">
+            <a href="https://divide-and-costco.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
+          </button>
+          <button class="btn">
+            <a href="https://github.com/alexw14/divideandcostco" target="_blank" class="text-white">GitHub Repo</a>
+          </button>
+        </div>
+        <div class="col-md-8 order-md-4">
+          <img src="https://i.imgur.com/h7qGOoT.png">
+        </div>
+      </div>
     </div>
-    <div>
-      <h3>VRoam</h3>
-      <p>VRoam is a concept e-commerce full-stack CRUD application built with Ruby on Rails. It includes a sign up/log in functionality
-        and a shopping cart that stores items. I used Ruby on Rails, PostgreSQL, JavaScript and Bootstrap to build this application.</p>
-      <img src="https://camo.githubusercontent.com/98cb45e7b79f0bf8094317a589abd993aacd87ab/68747470733a2f2f692e696d6775722e636f6d2f56664e3169587a2e6a7067"
-        height="450px" width="800px">
-      <button class="btn btn-primary">
-        <a href="https://vroam.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-      </button>
-      <button class="btn btn-primary">
-        <a href="https://github.com/alexw14/vroam" target="_blank" class="text-white">GitHub Repo</a>
-      </button>
+
+    <div class="project-section">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-center font-weight-bold">VRoam</h3>
+          <p>VRoam is a concept e-commerce full-stack CRUD application built with Ruby on Rails. It includes a sign up/log in
+            functionality and a shopping cart that stores items. I used Ruby on Rails, PostgreSQL, JavaScript and Bootstrap
+            to build this application.</p>
+          <button class="btn">
+            <a href="https://vroam.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
+          </button>
+          <button class="btn">
+            <a href="https://github.com/alexw14/vroam" target="_blank" class="text-white">GitHub Repo</a>
+          </button>
+        </div>
+        <div class="col-md-8">
+          <img src="https://i.imgur.com/YTWFtPR.jpg">
+        </div>
+      </div>
     </div>
-    <div>
-      <h3>Pass the Minions</h3>
-      <p>I built this client-side game that took inspirations from Pass the Pigs. It is designed to be played with 2 to 4 players.
-        I developed this game with JavaScript, jQuery, HTML and CSS.</p>
-      <img src="https://github.com/alexw14/PassTheMinions/raw/master/images/screenshots/last.png" height="450px" width="800px">
-      <button class="btn btn-primary">
-        <a href="https://alexw14.github.io/PassTheMinions/" target="_blank" class="text-white">Visit Here</a>
-      </button>
-      <button class="btn btn-primary">
-        <a href="https://github.com/alexw14/passtheminions" target="_blank" class="text-white">GitHub Repo</a>
-      </button>
+
+    <div class="project-section">
+      <div class="row">
+        <div class="col-md-4 order-md-8">
+          <h3 class="text-center font-weight-bold">Pass the Minions</h3>
+          <p>I built this client-side game that took inspirations from Pass the Pigs. It is designed to be played with 2 to
+            4 players. I developed this game with JavaScript, jQuery, HTML and CSS.</p>
+          <button class="btn">
+            <a href="https://alexw14.github.io/PassTheMinions/" target="_blank" class="text-white">Visit Here</a>
+          </button>
+          <button class="btn">
+            <a href="https://github.com/alexw14/passtheminions" target="_blank" class="text-white">GitHub Repo</a>
+          </button>
+        </div>
+        <div class="col-md-8 order-md-4">
+          <img src="https://i.imgur.com/w5UQFgt.png">
+        </div>
+      </div>
     </div>
+
   </div>
   <!-- Contact Section -->
-  <div class="container-fluid text-center">
-    <h1 id="contact" class="mt-5">Contact Me</h1>
-    <button class="btn btn-primary">
+  <div id="contact" class="container-fluid text-center">
+    <h1>Contact</h1>
+    <button class="btn">
       <a href="https://www.linkedin.com/in/alexw14/" target="_blank" class="text-white">LinkedIn</a>
     </button>
-    <button class="btn btn-primary">
+    <button class="btn">
       <a href="https://github.com/alexw14" target="_blank" class="text-white">GitHub</a>
     </button>
   </div>

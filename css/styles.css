@@ -3,10 +3,12 @@
 }
 
 #header {
-  background-color: #FDB927;
-  color: #552583;
+  color: #FDB927;
   height: 100vh;
-  width: 100vw;
+}
+
+#header, .btn {
+  background-color: #552583;
 }
 
 .intro {
@@ -14,7 +16,23 @@
 }
 
 .navbar {
-  background-color: #552583;
+  background-color: #FDB927;
+}
+
+#projects, #contact {
+  padding-top: 10vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.project-section {
+  padding-bottom: 15vh;
+}
+
+#contact {
+  height: 50vh;
 }
 
 .profile {
