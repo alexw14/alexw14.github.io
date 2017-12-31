@@ -1,6 +1,8 @@
 let i = j = 0;
-let firstTxt = `Hi, my name is Alex.`
-let secondTxt = `I'm a Full-Stack Web Developer.`;
+// let firstTxt = `Alex Wong`
+// let secondTxt = `Full-Stack Web Developer`;
+let firstTxt = `Hello, I'm Alex Wong.`
+let secondTxt = `I'm a full-stack web developer.`;
 
 function typeWriter() {
   if (i < firstTxt.length) {
