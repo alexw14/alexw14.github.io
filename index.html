@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Alex Wong's Portfolio</title>
@@ -23,7 +24,9 @@
   <!-- Nav -->
   <nav class="navbar sticky-top">
     <ul class="nav h4">
-      <li class="nav-item font-weight-bold">Alex Wong</li>
+      <li class="nav-item font-weight-bold">
+        <a href="#" class="text-dark">Alex Wong</a>
+      </li>
     </ul>
     <ul class="nav justify-content-end h5">
       <li class="nav-item px-3">
@@ -37,21 +40,31 @@
   <!-- Projects Section-->
   <div id="projects" class="container-fluid">
 
-    <h1 class="text-center mb-5">Projects</h1>
+    <div class="display-4 text-center mb-5">Projects</div>
 
     <div class="project-section">
       <div class="row">
-        <div class="col-md-4">
-          <h3 class="text-center font-weight-bold">Sneak Peeks</h3>
-          <p>Sneak Peeks is a crowdfunding platform for users to browse creative projects and contribute funding. Users can
+        <div class="col-md-4 text-center">
+          <h3 class="font-weight-bold">Sneak Peeks</h3>
+          <p class="text-justify mx-4">Sneak Peeks is a crowdfunding platform for users to browse creative projects and contribute funding. Users can
             filter and search for projects by category. Users can also post projects and get funding from others. Users are
             able to see each project's current funding and number of backers.</p>
-          <button class="btn">
-            <a href="https://sneakpeeks.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-          </button>
-          <button class="btn">
-            <a href="https://github.com/alexw14/sneakpeeks" target="_blank" class="text-white">GitHub Repo</a>
-          </button>
+          <div class="my-4">
+            <span class="chip">
+              <i class="devicon-react-original colored"> </i>React</span>
+            <span class="chip">
+              <i class="devicon-mongodb-plain colored"> </i>MongoDB</span>
+            <span class="chip">
+              <i class="devicon-nodejs-plain colored"> </i>Node.js</span>
+            <span class="chip">
+              <i class="devicon-express-original colored"> </i>Express.js</span>
+            <span class="chip">
+              <i class="devicon-javascript-plain colored"> </i>JavaScript</span>
+            <span class="chip">JSON Web Token</span>
+            <span class="chip">Materialize</span>
+          </div>
+          <a href="https://sneakpeeks.herokuapp.com/" target="_blank" class="btn text-white">Visit App</a>
+          <a href="https://github.com/alexw14/sneakpeeks" target="_blank" class="btn text-white">GitHub Repo</a>
         </div>
         <div class="col-md-8">
           <img src="https://i.imgur.com/UQnWaf0.png">
@@ -61,17 +74,26 @@
 
     <div class="project-section">
       <div class="row">
-        <div class="col-md-4 order-md-8">
-          <h3 class="text-center font-weight-bold">Divide and Costco</h3>
-          <p>Divide and Costco is an app that allows Costco shoppers to connect for savings. It allows two customers to connect
+        <div class="col-md-4 order-md-8 text-center">
+          <h3 class="font-weight-bold">Divide and Costco</h3>
+          <p class="text-justify mx-4">Divide and Costco is an app that allows Costco shoppers to connect for savings. It allows two customers to connect
             shopping lists to split large quantity products. That way you reduce waste while also saving money on the items
             you need.</p>
-          <button class="btn">
-            <a href="https://divide-and-costco.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-          </button>
-          <button class="btn">
-            <a href="https://github.com/alexw14/divideandcostco" target="_blank" class="text-white">GitHub Repo</a>
-          </button>
+          <div class="my-4">
+            <span class="chip">
+              <i class="devicon-mongodb-plain colored"> </i>MongoDB</span>
+            <span class="chip">
+              <i class="devicon-nodejs-plain colored"> </i>Node.js</span>
+            <span class="chip">
+              <i class="devicon-express-original colored"> </i>Express.js</span>
+            <span class="chip">
+              <i class="devicon-javascript-plain colored"> </i>JavaScript</span>
+            <span class="chip">Google APIs</span>
+            <span class="chip">Yelp API</span>
+            <span class="chip">Materialize</span>
+          </div>
+          <a href="https://divide-and-costco.herokuapp.com/" target="_blank" class="btn text-white">Visit App</a>
+          <a href="https://github.com/alexw14/divideandcostco" target="_blank" class="btn text-white">GitHub Repo</a>
         </div>
         <div class="col-md-8 order-md-4">
           <img src="https://i.imgur.com/h7qGOoT.png">
@@ -81,17 +103,25 @@
 
     <div class="project-section">
       <div class="row">
-        <div class="col-md-4">
-          <h3 class="text-center font-weight-bold">VRoam</h3>
-          <p>VRoam is a concept e-commerce full-stack CRUD application built with Ruby on Rails. It includes a sign up/log in
+        <div class="col-md-4 text-center">
+          <h3 class="font-weight-bold">VRoam</h3>
+          <p class="text-justify mx-4">VRoam is a concept e-commerce full-stack CRUD application built with Ruby on Rails. It includes a sign up/log in
             functionality and a shopping cart that stores items. I used Ruby on Rails, PostgreSQL, JavaScript and Bootstrap
             to build this application.</p>
-          <button class="btn">
-            <a href="https://vroam.herokuapp.com/" target="_blank" class="text-white">Visit Here</a>
-          </button>
-          <button class="btn">
-            <a href="https://github.com/alexw14/vroam" target="_blank" class="text-white">GitHub Repo</a>
-          </button>
+          <div class="my-4">
+            <span class="chip">
+              <i class="devicon-rails-plain colored"> </i>Ruby on Rails</span>
+            <span class="chip">
+              <i class="devicon-postgresql-plain colored"> </i>PostgreSQL</span>
+            <span class="chip">
+              <i class="devicon-javascript-plain colored"> </i>JavaScript</span>
+            <span class="chip">
+              <i class="devicon-jquery-plain colored"> </i>jQuery</span>
+            <span class="chip">
+              <i class="devicon-bootstrap-plain colored"> </i>Bootstrap</span>
+          </div>
+          <a href="https://vroam.herokuapp.com/" target="_blank" class="btn text-white">Visit App</a>
+          <a href="https://github.com/alexw14/vroam" target="_blank" class="btn text-white">GitHub Repo</a>
         </div>
         <div class="col-md-8">
           <img src="https://i.imgur.com/YTWFtPR.jpg">
@@ -101,16 +131,22 @@
 
     <div class="project-section">
       <div class="row">
-        <div class="col-md-4 order-md-8">
-          <h3 class="text-center font-weight-bold">Pass the Minions</h3>
-          <p>I built this client-side game that took inspirations from Pass the Pigs. It is designed to be played with 2 to
+        <div class="col-md-4 order-md-8 text-center">
+          <h3 class="font-weight-bold">Pass the Minions</h3>
+          <p class="text-justify mx-4">I built this client-side game that took inspirations from Pass the Pigs. It is designed to be played with 2 to
             4 players. I developed this game with JavaScript, jQuery, HTML and CSS.</p>
-          <button class="btn">
-            <a href="https://alexw14.github.io/PassTheMinions/" target="_blank" class="text-white">Visit Here</a>
-          </button>
-          <button class="btn">
-            <a href="https://github.com/alexw14/passtheminions" target="_blank" class="text-white">GitHub Repo</a>
-          </button>
+          <div class="my-4">
+            <span class="chip">
+              <i class="devicon-javascript-plain colored"> </i>JavaScript</span>
+            <span class="chip">
+              <i class="devicon-jquery-plain colored"> </i>jQuery</span>
+            <span class="chip">
+                <i class="devicon-html5-plain colored"> </i>HTML5</span>
+            <span class="chip">
+                <i class="devicon-css3-plain colored"> </i>CSS3</span>
+          </div>
+          <a href="https://alexw14.github.io/PassTheMinions/" target="_blank" class="btn text-white">Visit App</a>
+          <a href="https://github.com/alexw14/passtheminions" target="_blank" class="btn text-white">GitHub Repo</a>
         </div>
         <div class="col-md-8 order-md-4">
           <img src="https://i.imgur.com/w5UQFgt.png">
@@ -122,12 +158,8 @@
   <!-- Contact Section -->
   <div id="contact" class="container-fluid text-center">
     <h1>Contact</h1>
-    <button class="btn">
-      <a href="https://www.linkedin.com/in/alexw14/" target="_blank" class="text-white">LinkedIn</a>
-    </button>
-    <button class="btn">
-      <a href="https://github.com/alexw14" target="_blank" class="text-white">GitHub</a>
-    </button>
+    <a href="https://www.linkedin.com/in/alexw14/" target="_blank" class="btn text-white">LinkedIn</a>
+    <a href="https://github.com/alexw14" target="_blank" class="btn text-white">GitHub</a>
   </div>
   </div>
 

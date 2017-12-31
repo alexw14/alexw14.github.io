@@ -11,6 +11,10 @@
   background-color: #552583;
 }
 
+.btn {
+  margin: 10px;
+}
+
 .intro {
   padding-top: 35vh;
 }
@@ -33,6 +37,17 @@ img {
 
 #contact {
   height: 50vh;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 5px 0;
+  height: 25px;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
 }
 
 .profile {
