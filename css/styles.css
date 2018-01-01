@@ -47,7 +47,11 @@ img {
 }
 
 footer {
-  height: 64px;
+  height: 100px;
+}
+
+.copyright {
+  margin-top: -15px;
 }
 
 .profile {
