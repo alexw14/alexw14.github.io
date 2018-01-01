@@ -19,11 +19,11 @@
   padding-top: 35vh;
 }
 
-.navbar {
+.navbar, footer {
   background-color: #FDB927;
 }
 
-#projects, #contact {
+#projects {
   padding-top: 10vh;
 }
 
@@ -35,10 +35,6 @@ img {
   padding-bottom: 15vh;
 }
 
-#contact {
-  height: 50vh;
-}
-
 .chip {
   display: inline-block;
   padding: 0 15px;
@@ -48,6 +44,10 @@ img {
   line-height: 25px;
   border-radius: 25px;
   background-color: #f1f1f1;
+}
+
+footer {
+  height: 64px;
 }
 
 .profile {
